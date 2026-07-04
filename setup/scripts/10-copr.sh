@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/bash
 REPO_FILE="$(dirname "$0")/../data/coprs"
 
 # Get a list of currently enabled COPR repositories to minimize DNF calls
