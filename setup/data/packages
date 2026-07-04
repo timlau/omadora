@@ -1,7 +1,38 @@
+# Base Hyprland packages
+hyprland 
+sddm 
+tuned 
+tuned-ppd 
+ghostty
+waybar 
+rofi
+hyprpolkitagent 
+nautilus 
+pavucontrol 
+alsa-sof-firmware 
+alsa-utils 
+blueman 
+NetworkManager-wifi 
+iwlegacy-firmware
+iwlwifi-dvm-firmware
+iwlwifi-mld-firmware
+iwlwifi-mvm-firmware 
+nm-connection-editor-desktop 
+gvfs 
+gvfs-mtp
+hyprland-guiutils
+hyprshutdown
+hyprshot
+hyprsunset
+hyprlock
+hyprpaper
+
+# cli tools
+tar
+git
 lazygit
 mise
 fastfetch
-gnome-tweaks
 starship
 btop
 zoxide
@@ -10,11 +41,17 @@ tldr
 neovim
 fzf
 lazygit
-yumex
 fish
 fd-find
 yazi
-ghostty
 du-dust
-mpv
+
+# Applications
+yumex
+gnome-tweaks
 nextcloud-client
+mpv
+firefox
+
+# Fonts
+jetbrains-mono-fonts-all
