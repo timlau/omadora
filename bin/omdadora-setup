@@ -1,0 +1,9 @@
+#!/bin/bash
+gum style --border normal --border-foreground 6 --padding "1 2" "Omadora Setup Scripts"
+# Run all setup scripts in the scripts folders
+OMADORA_SCRIPT_DIR=../setup/scripts
+for script in $OMADORA_SCRIPT_DIR/*; do
+  name=$(basename "$script" .sh)
+  echo "==> Setup : ${name#*-}"
+  $script
+done
